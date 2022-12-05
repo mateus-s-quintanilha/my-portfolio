@@ -3,14 +3,31 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component';
+
+import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
+import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
+import { FooterComponent } from './components/footer/footer.component';
+import { Project1Component } from './components/projects/project1/project1.component';
+import { HomeComponent } from './components/home/home.component';
+import { Project2Component } from './components/projects/project2/project2.component';
+import { Project3Component } from './components/projects/project3/project3.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    Project1Component,
+    HomeComponent,
+    Project2Component,
+    Project3Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule,
+    NgbCollapseModule
   ],
   providers: [],
   bootstrap: [AppComponent]

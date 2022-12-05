@@ -11,7 +11,7 @@ body {
     background-position-y: center;
     // background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../assets/image_processing20220407-6162-1d8vkmr.jpeg');
+    background-image: url('../../../assets/image_processing20220407-6162-1d8vkmr.jpeg');
     z-index: 1;
 }
 
@@ -344,5 +344,8 @@ body {
     }
     #subtitle {
         width: 90vw;
+    }
+    .skill-card {
+        font-size: .75rem;
     }
 }

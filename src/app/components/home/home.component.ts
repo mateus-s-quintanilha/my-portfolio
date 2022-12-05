@@ -6,16 +6,12 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
-
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
 })
-export class AppComponent implements OnInit{
-  title = 'my-portfolio';
-
-  // -> Site para fazer os mockups: https://mockuper.net/generator/mockup/6UsieT-qo/macbook-pro-16 <-//
+export class HomeComponent implements OnInit {
 
   faGithub = faGithub
 
@@ -25,8 +21,10 @@ export class AppComponent implements OnInit{
 
   faFilePdf = faFilePdf
 
+
+  constructor() { }
+
   ngOnInit(): void {
-    // this.typeWriter()
     const pageTitle = document.querySelector('h1')
     this.typeWriter(pageTitle)
 
@@ -64,4 +62,5 @@ export class AppComponent implements OnInit{
       }, 75 * i) 
     })
   }
+
 }
