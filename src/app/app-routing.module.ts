@@ -10,9 +10,13 @@ const routes: Routes = [
   {path: 'project-1', component: Project1Component},
   {path: 'project-2', component: Project2Component},
   {path: 'project-3', component: Project3Component},
-  {path: 'main', component: HomeComponent},
-  {path: '', redirectTo: 'main', pathMatch: 'full'},
-  {path: '**', component: HomeComponent}
+  // {path: 'main', component: HomeComponent},
+  // {path: '', redirectTo: 'main', pathMatch: 'full'},
+  // {path: '**', component: HomeComponent}
+  {path: '', component: HomeComponent},
+  {path: '**', redirectTo: '', pathMatch: 'full'}
+  // {path: '', redirectTo: 'main', pathMatch: 'full'},
+  // {path: '**', redirectTo: 'main', pathMatch: 'full'},
 ];
 
 @NgModule({

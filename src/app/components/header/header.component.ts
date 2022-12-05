@@ -1,7 +1,9 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Router } from '@angular/router';
 
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-header',
@@ -15,11 +17,22 @@ export class HeaderComponent implements OnInit {
   public isCollapsed = false;
 
 
-  constructor() { }
+  constructor(
+    private viewportScroller: ViewportScroller,
+    private router: Router
+  ) { }
 
 
   ngOnInit(): void {
 
+  }
+
+  onClick(anchor: string) {
+    this.viewportScroller.scrollToAnchor(anchor);
+    if(this.router.url == '/project-1' || this.router.url == '/project-2' || this.router.url == '/project-3'){
+      this.router.navigate([''])
+    }
+    
   }
 
 

@@ -157,6 +157,10 @@ input:checked ~ .content-info .nav-list {
         }
     }
 
+    .nav-link {
+        cursor: pointer !important;
+    }
+
     #bars-icon {
         display: grid !important;
         font-size: 1.3rem;
