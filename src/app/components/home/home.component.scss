@@ -381,3 +381,124 @@ body {
         font-size: 1.4rem;
     }
 }
+
+@media (min-width: 1400px) {
+    #page-title {
+        // font-size: 3rem;
+        font-size: 3.2rem;
+    }
+
+    #subtitle h4{
+        // font-size: 1.3rem;
+        font-size: 1.6rem;
+    }
+
+    .section-about-title > h2, .section-projects-title > h2 {
+        // font-size: 2.6rem;
+        font-size: 2.8rem;
+    }
+
+    .section-about-content-1 h4, 
+    .section-about-content-2 h4 {
+        // font-size: 1.6rem;
+        font-size: 1.8rem;
+    }
+    .skill-card {
+        // font-size: .9rem;
+        font-size: 1rem;
+    }
+    .section-projects-subtitle {
+        // font-size: 1.2rem;
+        opacity: .8;
+        font-size: 1.5rem;
+    }
+
+    .project-container-info h3{
+        // font-size: 1.6rem;
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (min-width: 1600px) {
+    #page-title {
+        // font-size: 3rem;
+        font-size: 3.7rem;
+    }
+
+    #subtitle h4{
+        // font-size: 1.3rem;
+        font-size: 1.8rem;
+    }
+
+    .section-about-title > h2, .section-projects-title > h2 {
+        // font-size: 2.6rem;
+        font-size: 3rem;
+    }
+
+    .section-about-content-1 h4, 
+    .section-about-content-2 h4 {
+        // font-size: 1.6rem;
+        font-size: 2rem;
+    }
+    .skill-card {
+        // font-size: .9rem;
+        font-size: 1.1rem;
+    }
+    .section-projects-subtitle {
+        // font-size: 1.2rem;
+        opacity: .8;
+        font-size: 1.7rem;
+    }
+
+    .project-container-info h3{
+        // font-size: 1.6rem;
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1800px) {
+    #page-title {
+        // font-size: 3rem;
+        font-size: 4rem;
+    }
+
+    #subtitle h4{
+        // font-size: 1.3rem;
+        font-size: 2rem;
+    }
+
+    .section-about-title > h2, .section-projects-title > h2 {
+        // font-size: 2.6rem;
+        font-size: 3.2rem;
+    }
+
+    .section-about-content-1 h4, 
+    .section-about-content-2 h4 {
+        // font-size: 1.6rem;
+        font-size: 2.2rem;
+    }
+    .skill-card {
+        // font-size: .9rem;
+        font-size: 1.2rem;
+    }
+    .section-projects-subtitle {
+        // font-size: 1.2rem;
+        opacity: .8;
+        font-size: 1.9rem;
+    }
+
+    .project-container-info h3{
+        // font-size: 1.6rem;
+        font-size: 2.2rem;
+    }
+    p {
+        font-size: 1.4rem;
+    }
+}
