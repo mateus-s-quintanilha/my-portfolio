@@ -358,7 +358,7 @@ body {
     }
     .home-content {
         // position: absolute;
-        top: 75%;
+        top: 80%;
         left: 50%;
         // transform: translate(-50%,-50%);
     }
@@ -371,6 +371,12 @@ body {
     #subtitle h4{
         font-size: 1.1rem;
     }
+
+    .sidenav-icons {
+        left: 0;
+        top: 50%;
+    }
+
     .sidenav-icons fa-icon{
         font-size: 1.4rem;
     }
