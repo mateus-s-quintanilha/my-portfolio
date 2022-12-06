@@ -136,6 +136,41 @@
     width: 50%;
 }
 
+.compatibility {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.compatibility h3 {
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.compatibility-icons {
+    width: 60%;
+}
+
+.icon-wrapper {
+    // background-color: rgb(35,159,115);
+    background-color: rgba(63, 51, 79, 0.877);
+    padding: 1.5rem 4rem;
+    border-radius: 1rem;
+    // box-shadow: 0 0 4px rgba(8, 8, 8, 0.315);
+    margin-top: .5rem;
+    width: 190px;
+    // rgb(35,159,115)
+    // rgb(254,231,18)
+}
+
+.icon-wrapper span {
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
 @media (max-width: 1005px) {
     .btn {
         // margin-top: 4rem;
