@@ -90,7 +90,9 @@ input:checked ~ .content-info .nav-list {
     transform: translateY(0);
 }
 
-
+.nav-link {
+    cursor: pointer;
+}
 
 
 @media (max-width: 1050px) {
@@ -155,10 +157,6 @@ input:checked ~ .content-info .nav-list {
             justify-content: end;
             align-items: center;
         }
-    }
-
-    .nav-link {
-        cursor: pointer !important;
     }
 
     #bars-icon {
