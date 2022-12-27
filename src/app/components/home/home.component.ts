@@ -13,6 +13,10 @@ import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 })
 export class HomeComponent implements OnInit {
 
+  /* 
+  * Mockup link: https://mockuper.net/generator/mockup/6UsieT-qo/macbook-pro-16
+  */
+
   faGithub = faGithub
 
   faLinkedin = faLinkedin
